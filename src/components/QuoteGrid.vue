@@ -1,4 +1,5 @@
 <template>
+<!--testing git in vscode-->
     <div class="row">
         <app-quote v-for="(quote, index) in quotes" @click.native="deleteQuote(index)">{{ quote }}</app-quote>
     </div>
